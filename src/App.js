@@ -10,7 +10,7 @@ function App() {
   const [temp, setTemp] = useState(Number);
   const [errorMsg, setMsg] = useState("");
 
-  const key = "3bcc4c8f987da2933108d06b40560ac2";
+  const key = 'api-key';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${loc}&appid=${key}`;
 
   const ifocus = useRef(null);
